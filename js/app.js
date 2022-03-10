@@ -29,7 +29,7 @@ const reportPost = (id) => {
 const displayContent = (text) => {
 
     if(text.length >30 ){
-      console.log(text)
+      
       return text.slice(0, 30) + "<span class='fw-bold'>... read more</span>";
     } else{
       return text
